@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+p {
+	margin-bottom: 1rem;
+}
+
+@layer base {
+	ol,
+	ul,
+	menu {
+		list-style: auto;
+		padding: revert;
+		margin-block: 1rem;
+	}
+	li {
+		margin-block: 0.5rem;
+	}
+}
